@@ -11,4 +11,8 @@
 #
 
 # Add a feed source
-sed -i '$a src-git garypang13 https://github.com/garypang13/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git garypang13 https://github.com/garypang13/openwrt-packages' feeds.conf.default
+
+# Add luci-app-bypass <M>
+git clone --depth=1 https://github.com/garypang13/smartdns-le.git
+git clone --depth=1 https://github.com/garypang13/luci-app-bypass
