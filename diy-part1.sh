@@ -14,5 +14,6 @@
 #sed -i '$a src-git garypang13 https://github.com/garypang13/openwrt-packages' feeds.conf.default
 
 # Add luci-app-bypass
+git clone --depth=1 https://github.com/jerrykuku/lua-maxmindd
 git clone --depth=1 https://github.com/garypang13/smartdns-le
 git clone --depth=1 https://github.com/garypang13/luci-app-bypass
