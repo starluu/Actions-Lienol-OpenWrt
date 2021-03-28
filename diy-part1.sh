@@ -11,6 +11,4 @@
 #
 
 # Add a feed source
-git clone --depth=1 https://github.com/garypang13/smartdns-le
-#sed -i '$a src-git smartdns-le https://github.com/garypang13/smartdns-le' feeds.conf.default
-sed -i '$a src-git project-lede https://github.com/project-lede/openwrt-app' feeds.conf.default
+sed -i '$a src-git garypang13 https://github.com/garypang13/openwrt-packages' feeds.conf.default
