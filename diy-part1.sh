@@ -11,4 +11,4 @@
 #
 
 # Add a feed source
-sed -i '$a src-git bypass https://github.com/tianiue/luci-app-bypass' feeds.conf.default
+sed -i '$a src-git garypang13 https://github.com/garypang13/openwrt-packages' feeds.conf.default
