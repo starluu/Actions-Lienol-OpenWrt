@@ -12,4 +12,4 @@
 
 # Add a feed source
 sed -i '$a src-git garypang13 https://github.com/garypang13/openwrt-packages' feeds.conf.default
-#sed -i '$a src-git jerrykuku https://github.com/jerrykuku/luci-theme-argon' feeds.conf.default
+sed -i '$a src-git jerrykuku https://github.com/jerrykuku/luci-theme-argon' feeds.conf.default
