@@ -1,1 +1,2 @@
+proxies:
 - {"name":"🇦🇺AU_09","server":"icook.hk","type":"vless","country":"🇦🇺AU","port":443,"uuid":"88cb30c0-c4db-45ca-9c89-1693bf4e28c9","alterId":0,"cipher":"auto","network":"ws","ws-path":"/88cb30c0-c4db-45ca-9c89-1693bf4e28c9-vless","servername":"heroku.starluu.workers.dev","ws-headers":{"HOST":"heroku.starluu.workers.dev"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
